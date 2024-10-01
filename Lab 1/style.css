@@ -52,7 +52,7 @@ ul {
     color: white;
 }
 
-#S1 p, #S2 p {
+p {
     font-size: 28px;
 }
 
@@ -67,4 +67,37 @@ ul {
     background-color: #182b49;
     max-height: 500px;
     overflow-y: scroll;
+}
+
+img {
+    max-width: 100%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+    li a {
+        display: none;
+    }
+
+    #UCSD {
+        max-width: 75%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
