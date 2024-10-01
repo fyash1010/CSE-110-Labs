@@ -1,0 +1,70 @@
+li {
+    float: left
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+li a:hover {
+    background-color: #182b49;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+#S1 {
+    background-color: rgb(245, 240, 230);
+    display: inline-block;
+    width: 100%;
+    scroll-margin-top: 46px;
+}
+
+#S2 {
+    background-image: url("bg-orbs-1.jpg");
+    display: inline-block;
+    width: 100%;
+    scroll-margin-top: 46px;
+}
+
+#S3 {
+    background-color: rgb(245, 240, 230);
+    display: inline-block;
+    width: 100%;
+    scroll-margin-top: 46px;
+    font-size: 28px;
+}
+
+#S2 h1, #S2 p {
+    color: white;
+}
+
+#S1 p, #S2 p {
+    font-size: 28px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.text-box {
+    color: white;
+    background-color: #182b49;
+    max-height: 500px;
+    overflow-y: scroll;
+}
