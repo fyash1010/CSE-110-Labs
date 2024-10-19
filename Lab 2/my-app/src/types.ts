@@ -12,3 +12,5 @@ export type Note = {
     label: Label;
     liked: boolean;
 };
+
+export type GroceryItem = { name: string; isPurchased: boolean };
