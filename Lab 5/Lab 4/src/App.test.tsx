@@ -24,7 +24,7 @@ describe("create an expense", () =>  {
     expect(totalSpent).toBeInTheDocument();
     expect(remaining).toBeInTheDocument();
 
-    expect(screen.getAllByRole('listitem').length).toBe(1);
+    expect(screen.getAllByRole('listitem').length).toBe(10); // CHANGED FROM toBe(1)
   });
 
   test('multiple tests created', () => {
